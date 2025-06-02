@@ -3,5 +3,5 @@
 let a = Number(prompt("Informe um número: "))
 let b = Number(prompt("Informe outro número: "))
 
-let resultado = (a == b) && (a > 10) && (b > 10)
+let resultado = (a === b) && (a > 10) && (b > 10)
 console.log(resultado)
